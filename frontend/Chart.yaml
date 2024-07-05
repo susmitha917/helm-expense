@@ -1,7 +1,4 @@
 apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: backend
-  namespace: expense
-data:
-  DB_HOST: mysql
+name: frontend
+version: 0.0.1
+description: this is the helm implementation of frontend in expense project
